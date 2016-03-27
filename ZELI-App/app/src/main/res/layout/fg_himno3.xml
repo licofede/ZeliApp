@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/numeros_fondo_final_2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton3"
+                    android:src="@drawable/num2"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_2" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton"
+                    android:src="@drawable/num1"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_1" />
+
+                <TextView
+                    android:layout_width="192dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="          Uno-One"
+                    android:id="@+id/textView14"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#080808"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="          Dos-Two"
+                    android:id="@+id/textView15"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#080808"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton2"
+                    android:src="@drawable/num4"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_4" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton4"
+                    android:src="@drawable/num3"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_3" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="        Tres-Three"
+                    android:id="@+id/textView16"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#191918"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="         Cuatro-Four"
+                    android:id="@+id/textView17"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#0a0a0a"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton5"
+                    android:src="@drawable/num6"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_6" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton6"
+                    android:src="@drawable/num5"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_5" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="        Cinco-Five"
+                    android:id="@+id/textView18"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#060606"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="            Seis-Six"
+                    android:id="@+id/textView19"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#060606"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton7"
+                    android:src="@drawable/num8"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_8" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton8"
+                    android:src="@drawable/num7"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_7" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="         Siete-Seven"
+                    android:id="@+id/textView20"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#090909"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="          Ocho-Eight"
+                    android:id="@+id/textView21"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#080808"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton9"
+                    android:src="@drawable/num10"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_10" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton10"
+                    android:src="@drawable/num9"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_9" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="         Nueve-Nine"
+                    android:id="@+id/textView22"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#090909"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="          Diez-Ten"
+                    android:id="@+id/textView23"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#080808"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton11"
+                    android:src="@drawable/num12"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_12" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton12"
+                    android:src="@drawable/num11"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_11" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="      Once-Eleven"
+                    android:id="@+id/textView24"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#090909"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="       Doce-Twelve"
+                    android:id="@+id/textView25"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#080808"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton25"
+                    android:src="@drawable/num14"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_14" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton26"
+                    android:src="@drawable/num13"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_13" />
+
+                <TextView
+                    android:layout_width="221dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="       Trece-Thirteen"
+                    android:id="@+id/textView26"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#090909"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="230dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="            Catorce-Fourteen"
+                    android:id="@+id/textView27"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#080808"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton27"
+                    android:src="@drawable/num16"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_16" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton28"
+                    android:src="@drawable/num15"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_15" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="     Quince-Fifteen"
+                    android:id="@+id/textView28"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#090909"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="273dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="                     Diesiseis-Sixteen"
+                    android:id="@+id/textView29"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#080808"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton29"
+                    android:src="@drawable/num18"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_18" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton30"
+                    android:src="@drawable/num17"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_17" />
+
+                <TextView
+                    android:layout_width="165dp"
+                    android:layout_height="34dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="  Diecisiete-Seventeen"
+                    android:id="@+id/textView30"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#090909"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="178dp"
+                    android:layout_height="31dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="     Dieciocho-Eighteen"
+                    android:id="@+id/textView31"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#080808"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton31"
+                    android:src="@drawable/num20"
+                    android:layout_gravity="right|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_20" />
+
+                <ImageButton
+                    android:layout_width="175dp"
+                    android:layout_height="175dp"
+                    android:id="@+id/imageButton32"
+                    android:src="@drawable/num19"
+                    android:layout_gravity="left|center_vertical"
+                    android:background="@drawable/rippple_colores"
+                    android:onClick="num_19" />
+
+                <TextView
+                    android:layout_width="177dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="     Diecinueve-Nineteen"
+                    android:id="@+id/textView32"
+                    android:layout_gravity="left|bottom"
+                    android:textColor="#090909"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="                       Veinte-Twenty"
+                    android:id="@+id/textView33"
+                    android:layout_gravity="right|bottom"
+                    android:textColor="#080808"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+    </LinearLayout>
+</ScrollView>

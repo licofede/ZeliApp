@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animales_fondo_final">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton13"
+                android:src="@drawable/animal_ballena"
+                android:layout_gravity="center"
+                android:onClick="animal_ballena"
+                android:background="@drawable/rippple"
+
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Ballena-Whale"
+                android:id="@+id/textView"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton14"
+                android:nestedScrollingEnabled="false"
+                android:onClick="animal_caballo"
+                android:src="@drawable/animal_caballo"
+                android:layout_gravity="center_horizontal|bottom"
+                android:background="@drawable/rippple_rojo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Caballo-Horse"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton15"
+                android:src="@drawable/animal_cerdo"
+                android:layout_gravity="center"
+                android:onClick="animal_cerdo"
+                android:background="@drawable/rippple_verde"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cerdo-Pig"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton16"
+                android:src="@drawable/animal_chango"
+                android:layout_gravity="center"
+                android:onClick="animal_chango"
+                android:background="@drawable/rippple"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Chango-Monkey"
+                android:id="@+id/textView5"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton17"
+                android:nestedScrollingEnabled="false"
+                android:onClick="animal_gallina"
+                android:src="@drawable/animal_gallina"
+                android:layout_gravity="center"
+                android:background="@drawable/rippple_rojo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Gallina-Hen"
+                android:id="@+id/textView7"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton18"
+                android:src="@drawable/animal_gallo"
+                android:onClick="animal_gallo"
+                android:layout_gravity="center"
+                android:background="@drawable/rippple_verde"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Gallo-Roster"
+                android:id="@+id/textView6"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton19"
+                android:onClick="animal_gato"
+                android:src="@drawable/animal_gato"
+                android:layout_gravity="center"
+                android:background="@drawable/rippple"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Gato-Cat"
+                android:id="@+id/textView8"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton20"
+                android:src="@drawable/animal_oveja"
+                android:layout_gravity="center"
+                android:onClick="animal_oveja"
+                android:background="@drawable/rippple_rojo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Oveja-Lamb"
+                android:id="@+id/textView9"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton21"
+                android:onClick="animal_pajaro"
+                android:src="@drawable/animal_pajaro"
+                android:layout_gravity="center"
+                android:background="@drawable/rippple_verde"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Pajaro-Bird"
+                android:id="@+id/textView10"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton22"
+                android:src="@drawable/animal_perro"
+                android:layout_gravity="center"
+                android:onClick="animal_perro"
+                android:background="@drawable/rippple"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Perro-Dog"
+                android:id="@+id/textView11"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton23"
+                android:src="@drawable/animal_rana"
+                android:onClick="animal_rana"
+                android:layout_gravity="center"
+                android:background="@drawable/rippple_rojo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rana-Frog"
+                android:id="@+id/textView12"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:id="@+id/imageButton24"
+                android:src="@drawable/animal_vaca"
+                android:onClick="animal_vaca"
+                android:layout_gravity="center"
+                android:background="@drawable/rippple_verde"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="79dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Vaca-Cow"
+                android:id="@+id/textView13"
+                android:layout_gravity="center_horizontal|bottom"
+                android:textColor="#fcfef6"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="23dp" />
+
+</LinearLayout>
+
+</ScrollView>
